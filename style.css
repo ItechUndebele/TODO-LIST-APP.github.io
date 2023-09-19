@@ -1,56 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.form--container{
+    text-align: center;
+    margin-top: 10rem;
+    line-height: 2rem;
+}
+.box-container{
+    display: flex;
+}
+.box-container{
+    border-style: solid;
+    margin-top: 1rem;
+    width: 30rem;
+}
+.delete, .edit{
+    cursor: pointer;
+}
+.text--field{
+    width: 25rem;
+    height: 3rem;
+}
+.button, .delete{
+    width: 8rem;
+    height: 3.4rem;
+    background-color: rgb(73, 73, 84);
+    border-style: none;
+}
+.delete{
+margin-left:  28rem;
+}
+.text--space{
+    font-family: sans-serif;
+    font-size: 1.5rem;
 
-        .form--container{
-            text-align: center;
-            margin-top: 10rem;
-            line-height: 2rem;
-        }
-        .box-container{
-            display: flex;
-        }
-        .box-container{
-            border-style: solid;
-            margin-top: 1rem;
-            width: 30rem;
-        }
-     .delete, .edit{
-        cursor: pointer;
-     }
-     .text--field{
-        width: 25rem;
-        height: 3rem;
-     }
-     .button, .delete{
-       width: 8rem;
-        height: 3.4rem;
-        background-color: rgb(73, 73, 84);
-        border-style: none;
-     }
-     .delete{
-      margin-left:  28rem;
-     }
-     .text--space{
-        font-family: sans-serif;
-        font-size: 1.5rem;
+}
+container--space{
+    display: block;
+    justify-content: center;
+}
+.main--container--space{
+    display: flex;
+    justify-content: center;
+}
+.trash{
+    margin-top: 0.3rem;
+    margin-left: 10rem;
+    color: red;
+    cursor: pointer;
+}
+.listing{
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: rgb(108, 108, 86);
+}
 
-     }
-     container--space{
-        display: block;
-        justify-content: center;
-     }
-    .main--container--space{
-        display: flex;
-        justify-content: center;
-    }
-    .trash{
-      margin-top: 0.3rem;
-      margin-left: 10rem;
-      color: red;
-      cursor: pointer;
-    }
-    .listing{
-        text-align: center;
-        font-size: 2rem;
-        font-family: sans-serif;
-        color: rgb(108, 108, 86);
-    }
-  
