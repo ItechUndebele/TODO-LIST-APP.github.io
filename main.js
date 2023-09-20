@@ -17,7 +17,6 @@ button.addEventListener('click', ()=>{
         <div class='text--space'>${text_field.value}</div> 
          <div class='trash'>
         <i Onclick='del(${number})' class="bi bi-trash3-fill"></i>
-       
       </div>
      </div>
      </div>
@@ -40,8 +39,11 @@ function  edits(number){
     text_space.innerHTML = 'shit';
 }
 
-
-
+button.addEventListener('click', ()=>{
+  if(text_field.value ===""){
+    container_space.innerHTML = '';
+  }
+})
 
 /*
 let data;
